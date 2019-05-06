@@ -1,0 +1,10 @@
+{
+  "data_matrix_file": {
+        "class": "File",
+        "path": "data/bipolar_pca100.tsv"
+    },
+    "embedding": {
+        "class": "File",
+        "path": "scvis-results.tar.gz"
+    }
+}
