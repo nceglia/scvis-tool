@@ -3,7 +3,7 @@ import tarfile
 import sys
 import os
 
-function "train"
+function = "train"
 data_matrix_file = sys.argv[1]
 
 cmd = "scvis {0} --data_matrix_file {1} --out_dir /results/ --verbose".format(function, data_matrix_file)
